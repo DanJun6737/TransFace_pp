@@ -1,4 +1,4 @@
-# ByteFace: An In-depth Exploration of Face Recognition Operating Directly On Image Bytes
+# ByteFace
 This is the official Pytorch implementation of ByteFace
 
 ## Requirements
