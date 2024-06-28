@@ -1,7 +1,6 @@
 # [ICCV 2023] TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective 
-This is the official PyTorch implementation of [TransFace](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
+This is the official PyTorch implementation of [TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
 
-[Arxiv](https://arxiv.org/abs/2308.10133)
 
 ## ModelScope
 You can quickly experience and invoke our TransFace model on the [ModelScope](https://modelscope.cn/models/damo/cv_vit_face-recognition/summary).
@@ -36,7 +35,8 @@ print(f'Face cosine similarity={sim:.3f}, img1:{img1}  img2:{img2}')
 You can download the training datasets, including MS1MV2 and Glint360K:
 * MS1MV2: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
 * Glint360K: [Baidu](https://pan.baidu.com/share/init?surl=GsYqTTt7_Dn8BfxxsLFN0w) (code=:o3az)
-
+* WebFace42M: [InsightFace](https://github.com/deepinsight/insightface/blob/master/recognition/arcface_torch/docs/prepare_webface42m.md)
+  
 You can download the test dataset IJB-C as follows:
 * IJB-C: [Google Drive](https://drive.google.com/file/d/1aC4zf2Bn0xCVH_ZtEuQipR2JvRb1bf8o/view) 
 
@@ -58,7 +58,7 @@ python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_s/model.pt --result-d
 
 ## TransFace Pretrained Models 
 
-You can download the TransFace models reported in our paper as follows:
+You can download the TransFace models reported in our conference version paper as follows:
 
 | Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
