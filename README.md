@@ -1,4 +1,4 @@
-# TransFace++
+# TransFace-ByteFace
 * Code for the following papers:
 
 **(1)** [Transface: Calibrating transformer training for face recognition from a data-centric perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html), IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023. (Conference version)
