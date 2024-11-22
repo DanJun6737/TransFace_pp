@@ -1,5 +1,5 @@
-# ByteFace
-This is the official Pytorch implementation of ByteFace.
+# TransFace++
+This is the official Pytorch implementation of TransFace++.
 
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
