@@ -5,7 +5,7 @@
 
 **(2)** TransFace++: Rethinking the Face Recognition Paradigm with a Focus on Efficiency, Security, and Precision. (Under Review).
 
-Codes for TransFace and TransFace++ models are respectively in folders [TransFace](https://github.com/DanJun6737/TransFace_pp/tree/main/TransFace) and [TransFace++](https://github.com/DanJun6737/TransFace_pp/tree/main/ByteFace).
+Codes for TransFace and TransFace++ models are respectively in folders [TransFace](https://github.com/DanJun6737/TransFace_pp/tree/main/TransFace) and [TransFace++](https://github.com/DanJun6737/TransFace_pp/tree/main/TransFace%2B%2B).
 
 ## Citation
 * If you find it helpful for you, please cite our paper
