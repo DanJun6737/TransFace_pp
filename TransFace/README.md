@@ -1,6 +1,26 @@
-# TransFace 
-This is the official PyTorch implementation of [[ICCV 2023] TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
+<h2 align="center">TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective
+<h5 align="center"> If you like TransFace, please give us a star ⭐ on GitHub for the latest update~
+</h2>
 
+This is the official PyTorch implementation of [[ICCV-2023] TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
+
+[[Arxiv Version]](https://arxiv.org/abs/2308.10133)
+
+
+
+![image](docs/TransFace.png)
+
+
+
+## News
+- 🚀🚀🚀 TransFace is integrated in [FaceChain-FACT](https://github.com/modelscope/facechain) as a key identity-preserved module to assist Stable Diffusion in generating human portraits with fine-grained facial details and diverse styles.
+In the newest FaceChain-FACT (Face Adapter with deCoupled Training) version, with only 1 photo and 10 seconds, you can generate personal portraits in different settings (multiple styles now supported!). (May 28th, 2024 UTC)
+
+<a href='https://facechain-fact.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/DHqEl0qwi-M?si=y6VpInXdhIX0HpbI)
+
+ The entire framework of [FaceChain-FACT](https://github.com/modelscope/facechain) is shown in the figure below.
+
+![image](docs/framework.png)
 
 ## ModelScope
 You can quickly experience and invoke our TransFace model on the [ModelScope](https://modelscope.cn/models/damo/cv_vit_face-recognition/summary).
@@ -35,8 +55,7 @@ print(f'Face cosine similarity={sim:.3f}, img1:{img1}  img2:{img2}')
 You can download the training datasets, including MS1MV2 and Glint360K:
 * MS1MV2: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
 * Glint360K: [Baidu](https://pan.baidu.com/share/init?surl=GsYqTTt7_Dn8BfxxsLFN0w) (code=:o3az)
-* WebFace42M: [InsightFace](https://github.com/deepinsight/insightface/blob/master/recognition/arcface_torch/docs/prepare_webface42m.md)
-  
+
 You can download the test dataset IJB-C as follows:
 * IJB-C: [Google Drive](https://drive.google.com/file/d/1aC4zf2Bn0xCVH_ZtEuQipR2JvRb1bf8o/view) 
 
@@ -58,7 +77,7 @@ python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_s/model.pt --result-d
 
 ## TransFace Pretrained Models 
 
-You can download the TransFace models reported in our conference version paper as follows:
+You can download the TransFace models reported in our paper as follows:
 
 | Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
@@ -78,7 +97,7 @@ python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_l/glint360k_model_Tra
 ```
 
 ## Citation
-* If you find it helpful for you, please cite our paper
+* If you find it helpful for you, please consider citing our paper 📝 and giving a star ⭐.
 ```
 @inproceedings{dan2023transface,
   title={TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective},
