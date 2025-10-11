@@ -17,9 +17,7 @@ Codes for TransFace and TransFace++ models are respectively in folders [TransFac
   pages={20642--20653},
   year={2023}
 }
-```
 
-```
 @article{dan2025transface++,
   title={TransFace++: Rethinking the Face Recognition Paradigm with a Focus on Accuracy, Efficiency, and Security},
   author={Dan, Jun and Liu, Yang and Sun, Baigui and Deng, Jiankang and Luo, Shan},
